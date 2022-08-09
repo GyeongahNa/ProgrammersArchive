@@ -5,8 +5,10 @@
 
 ## Level2
 
-|문제 제목|문제링크|코드|해설|
-|--|--|--|--|
+||||||
+|-|--|--|--|--|
+|Summer/Winter Coding(2019)|**멀쩡한 사각형**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/62048)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EB%A9%80%EC%A9%A1%ED%95%9C%EC%82%AC%EA%B0%81%ED%98%95.cpp)|[해설](https://maramarathon.tistory.com/131)|
+
 
 ## Level 3
 
