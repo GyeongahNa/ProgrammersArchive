@@ -13,6 +13,7 @@
 |연습문제|**멀리뛰기**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12914)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EB%A9%80%EB%A6%AC%EB%9B%B0%EA%B8%B0.cpp)|[해설](https://maramarathon.tistory.com/136)|
 |스택/큐|**기능개발**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42586)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C.cpp)|[해설](https://maramarathon.tistory.com/133)|
 |해시|**전화번호목록**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42577)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%EB%AA%A9%EB%A1%9D.cpp)|[해설](https://maramarathon.tistory.com/135)|
+|해시|**위장**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42578)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%9C%84%EC%9E%A5.cpp)|[해설](https://maramarathon.tistory.com/137?category=979702)|
 
 ## Level 3
 
