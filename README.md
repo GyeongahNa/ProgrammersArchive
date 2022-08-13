@@ -21,6 +21,7 @@
 |해시|**전화번호목록**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42577)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%EB%AA%A9%EB%A1%9D.cpp)|[해설](https://maramarathon.tistory.com/135)|
 |해시|**위장**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42578)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%9C%84%EC%9E%A5.cpp)|[해설](https://maramarathon.tistory.com/137?category=979702)|
 |완전탐색|**소수찾기**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42839)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%86%8C%EC%88%98%EC%B0%BE%EA%B8%B0.cpp)|[해설](https://maramarathon.tistory.com/144?category=979702)|
+|완전탐색|**피로도**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/87946)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%ED%94%BC%EB%A1%9C%EB%8F%84.cpp)|[해설](https://maramarathon.tistory.com/145)|
 
 
 
