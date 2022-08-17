@@ -35,7 +35,7 @@
 |완전탐색|**카펫**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%B9%B4%ED%8E%AB.cpp)|[해설](https://maramarathon.tistory.com/152?category=979702)|
 |정렬|**가장큰수**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42746)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EA%B0%80%EC%9E%A5%ED%81%B0%EC%88%98.cpp)|[해설](https://maramarathon.tistory.com/153)|
 |정렬|**H-index**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42747)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_Hindex.cpp)|[해설](https://maramarathon.tistory.com/154)|
-
+|깊이/너비우선탐색(DFS/BFS)|**타겟넘버**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/43165)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84.cpp)|[해설](https://maramarathon.tistory.com/159)|
 
 ## Level 3
 
