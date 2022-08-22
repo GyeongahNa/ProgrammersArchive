@@ -7,7 +7,8 @@
 
 ||||||
 |-|--|--|--|--|
-|2017팁스다운|**짝지어제거하기**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12973)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%A7%9D%EC%A7%80%EC%96%B4%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0.cpp)|[해설](https://maramarathon.tistory.com/140)|
+|2017 팁스다운|**짝지어제거하기**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12973)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%A7%9D%EC%A7%80%EC%96%B4%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0.cpp)|[해설](https://maramarathon.tistory.com/140)|
+|2017 팁스다운|**예상대진표**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12985)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%98%88%EC%83%81%EB%8C%80%EC%A7%84%ED%91%9C.cpp)|[해설](https://maramarathon.tistory.com/175)|
 |Summer/Winter Coding(~2018)|**방문길이**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/49994)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EB%B0%A9%EB%AC%B8%EA%B8%B8%EC%9D%B4.cpp)|[해설](https://maramarathon.tistory.com/134)|
 |Summer/Winter Coding(~2018)|**영어끝말잇기**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12981)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%98%81%EC%96%B4%EB%81%9D%EB%A7%90%EC%9E%87%EA%B8%B0.cpp)|[해설](https://maramarathon.tistory.com/141)|
 |Summer/Winter Coding(~2018)|**점프와순간이동**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12980)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%A0%90%ED%94%84%EC%99%80%EC%88%9C%EA%B0%84%EC%9D%B4%EB%8F%99.cpp)|[해설](https://maramarathon.tistory.com/166)|
