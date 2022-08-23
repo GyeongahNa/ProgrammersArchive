@@ -37,7 +37,7 @@ vector<string> solution(vector<vector<int>> line) {
             C = line[j][0], D = line[j][1], F = line[j][2];
             if (A*D-B*C != 0) {
                 if ((B*F-E*D)%(A*D-B*C) == 0 && (E*C-A*F)%(A*D-B*C) == 0)
-                    st.insert({(E*C-A*F)/(A*D-B*C), (B*F-E*D)/(A*D-B*C)});
+                    st.insert({(E*C-A*F)/(A*D-B*C), (B*F-E*D)/(A*D-B*C)}); //x를 세로, y를 가로 좌표로 설정
             }
         }
     }
