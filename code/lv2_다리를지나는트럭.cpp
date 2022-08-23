@@ -18,7 +18,6 @@ using ii = pair<int, int>;
 using iii = tuple<int, int, int>;
 
 
-
 int solution(int bridge_length, int weight, vector<int> truck_weights) {
     
     int bn = bridge_length;
