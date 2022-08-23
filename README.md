@@ -53,6 +53,7 @@
 |깊이/너비우선탐색(DFS/BFS)|**게임맵최단거리**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/1844)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EA%B2%8C%EC%9E%84%EB%A7%B5%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC.cpp)|[해설](https://maramarathon.tistory.com/160)|
 |탐욕법(Greedy)|**큰수만들기**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42883)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%ED%81%B0%EC%88%98%EB%A7%8C%EB%93%A4%EA%B8%B0.cpp)|[해설](https://maramarathon.tistory.com/163)|
 |탐욕법(Greedy)|**조이스틱**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42860)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1.cpp)|[해설](https://maramarathon.tistory.com/174)|
+|탐욕법(Greedy)|**구명보트**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EA%B5%AC%EB%AA%85%EB%B3%B4%ED%8A%B8.cpp)|[해설](https://maramarathon.tistory.com/177)|
 
 ## Level 3
 
