@@ -20,7 +20,6 @@ using iii = tuple<int, int, int>;
 #define X first
 #define Y second
 
-
 void func(int k, int& cnt, vector<bool>& check1, vector<bool>& check2, vector<bool>& check3, int n) {
 
     if (k >= n) {
