@@ -39,6 +39,7 @@
 |연습문제|**숫자의표현**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12924)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%88%AB%EC%9E%90%EC%9D%98%ED%91%9C%ED%98%84.cpp)|[해설](https://maramarathon.tistory.com/162)|
 |연습문제|**하노이의탑**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12946)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%ED%95%98%EB%85%B8%EC%9D%B4%EC%9D%98%ED%83%91.cpp)|[해설](https://maramarathon.tistory.com/164)|
 |연습문제|**2xn타일링**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12900)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_2xn%ED%83%80%EC%9D%BC%EB%A7%81.cpp)|[해설](https://maramarathon.tistory.com/167)|
+|연습문제|**3xn타일링**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12902#)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_3xn%ED%83%80%EC%9D%BC%EB%A7%81.cpp)|[해설](https://maramarathon.tistory.com/185)|
 |연습문제|**가장큰정사각형찾기**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12905)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EA%B0%80%EC%9E%A5%ED%81%B0%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%EC%B0%BE%EA%B8%B0.cpp)|[해설](https://maramarathon.tistory.com/169)|
 |연습문제|**전력망을둘로나누기**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/86971)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EC%A0%84%EB%A0%A5%EB%A7%9D%EC%9D%84%EB%91%98%EB%A1%9C%EB%82%98%EB%88%84%EA%B8%B0.cpp)|[해설](https://maramarathon.tistory.com/179)|
 |연습문제|**N-Queen**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/12952)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_NQueen.cpp)|[해설](https://maramarathon.tistory.com/181)|
@@ -63,9 +64,5 @@
 |탐욕법(Greedy)|**구명보트**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv2_%EA%B5%AC%EB%AA%85%EB%B3%B4%ED%8A%B8.cpp)|[해설](https://maramarathon.tistory.com/177)|
 
 ## Level 3
-
-
-
-
 
 
