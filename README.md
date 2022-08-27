@@ -68,4 +68,4 @@
 ||||||
 |-|--|--|--|--|
 |그래프|**가장먼노드**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/49189)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv3_%EA%B0%80%EC%9E%A5%EB%A8%BC%EB%85%B8%EB%93%9C.cpp)|[해설](https://maramarathon.tistory.com/187)|
-
+|그래프|**순위**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/49191)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv3_%EC%88%9C%EC%9C%84.cpp)|[해설](https://maramarathon.tistory.com/188)|
