@@ -51,7 +51,6 @@ void bfs(vector<int>& dist, const vector<vector<int>> graph) {
 
 int solution(int n, vector<vector<int>> edge) {
     
-    
     vector<vector<int>> graph(n+1, vector<int>(0));
     setGraph(graph, edge);
     
