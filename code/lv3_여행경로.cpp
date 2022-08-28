@@ -24,16 +24,14 @@ vector<bool> visited(100000005, false);
 bool flag;
 
 void dfs(string x, int cnt, const vector<vector<string>>& tickets) {
-
-    if (cnt >= tickets.size()) flag = true;
+    
     ans.push_back(x);
-
+    if (cnt >= tickets.size()) flag = true;
+    
     for (int i=0; i<tickets.size(); i++) {
         if (visited[i] || tickets[i][0] != x) continue;
         visited[i] = true;
-        dfs(tickets[i][1], ++cnt, tickets);
-
-        //중간에 끊기는 경우 방지
+        dfs(tickets[i][1], cnt+1, tickets);
         if (!flag) {
             visited[i] = false;
             ans.pop_back();
@@ -42,7 +40,7 @@ void dfs(string x, int cnt, const vector<vector<string>>& tickets) {
 }
 
 vector<string> solution(vector<vector<string>> tickets) {
-
+ 
     sort(tickets.begin(), tickets.end());
     dfs("ICN", 0, tickets);
     return ans;
