@@ -70,4 +70,6 @@
 |그래프|**가장먼노드**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/49189)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv3_%EA%B0%80%EC%9E%A5%EB%A8%BC%EB%85%B8%EB%93%9C.cpp)|[해설](https://maramarathon.tistory.com/187)|
 |그래프|**순위**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/49191)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv3_%EC%88%9C%EC%9C%84.cpp)|[해설](https://maramarathon.tistory.com/188)|
 |깊이/너비 우선 탐색(DFS/BFS)|**네트워크**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv3_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.cpp)|[해설](https://maramarathon.tistory.com/189)|
+|깊이/너비 우선 탐색(DFS/BFS)|**여행경로**|[문제링크](https://school.programmers.co.kr/learn/courses/30/lessons/43164)|[코드](https://github.com/GyeongahNa/ProgrammersArchive/blob/main/code/lv3_%EC%97%AC%ED%96%89%EA%B2%BD%EB%A1%9C.cpp)|[해설](https://maramarathon.tistory.com/190)|
+
 
