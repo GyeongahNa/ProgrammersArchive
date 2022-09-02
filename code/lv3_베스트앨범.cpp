@@ -4,57 +4,55 @@
 #include <algorithm>
 #include <tuple>
 #include <vector>
+#include <stack>
 #include <queue>
 #include <deque>
 #include <set>
 #include <map>
 #include <unordered_set>
 #include <unordered_map>
+#include <cctype>
+#include <climits>
 #include <iostream>
 
 using namespace std;
 using ii = pair<int, int>;
 using iii = tuple<int, int, int>;
+using is = pair<int, string>;
 
 #define X first
 #define Y second
 
-string tmp;
-set<string> sset;
-vector<bool> visited(100, false);
-
-bool check(string user, string banned) {
-    
-    if (user.size() != banned.size()) return false;
-    for (int i=0; i<(int)user.size(); i++) {
-        if (banned[i] == '*') continue;
-        if (user[i] != banned[i]) return false;
-    }
-    return true;
+bool cmp(ii a, ii b) {
+    if (a.X > b.X) return true;
+    if (a.X < b.X) return false;
+    if (a.Y < b.Y) return true;
+    return false;
 }
 
-void func(int k, const vector<string>& user_id, const vector<string>& banned_id) {
-    
-    if (k >= (int)banned_id.size()) {
-        string s = tmp;
-        sort(s.begin(), s.end());
-        sset.insert(s);
-        return ;
-    }
-    
-    for (int i=0; i<(int)user_id.size(); i++) {
-        if (visited[i]) continue;
-        if (!check(user_id[i], banned_id[k])) continue;
-        visited[i] = true;
-        tmp += i+'0';
-        func(k+1, user_id, banned_id);
-        visited[i] = false;
-        tmp.pop_back();
-    }
-}
+vector<int> solution(vector<string> genres, vector<int> plays) {
 
-int solution(vector<string> user_id, vector<string> banned_id) {
-    
-    func(0, user_id, banned_id);    
-    return sset.size();
+    map<string, vector<ii>> minfo;
+    map<string, int> nplay;
+
+    int sz = genres.size();
+    for (int i=0; i<sz; i++) {
+        nplay[genres[i]] += plays[i];
+        minfo[genres[i]].push_back({plays[i], i});
+    }
+
+    for (auto it=minfo.begin(); it!=minfo.end(); it++) {
+        sort((*it).Y.begin(), (*it).Y.end(), cmp);
+    }
+
+    vector<is> vnplay;
+    for (auto [g, n] : nplay) vnplay.push_back({n, g});
+    sort(vnplay.begin(), vnplay.end(), greater<>());
+
+    vector<int> vans;
+    for (auto [n, g] : vnplay) {
+        for (int i=0; i<2 && i<minfo[g].size(); i++)
+            vans.push_back(minfo[g][i].Y);
+    }
+    return vans;
 }
