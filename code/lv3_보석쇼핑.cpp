@@ -33,7 +33,7 @@ vector<int> solution(vector<string> gems) {
 
     while (l <= r && r < gems.size()) {
         if (m.size() == sset.size()) { 
-        //[l, r] 구간이 모든 보석을 포함하고 있을 때 l을 오른쪽으로 이동            
+            //[l, r] 구간이 모든 보석을 포함하고 있을 때 l을 오른쪽으로 이동            
             v.push_back({r-l+1, l, r});
             m[gems[l]]--;
             if (m[gems[l]] == 0) 
