@@ -4,7 +4,6 @@
 #include <algorithm>
 #include <tuple>
 #include <vector>
-#include <stack>
 #include <queue>
 #include <deque>
 #include <set>
@@ -20,12 +19,23 @@ using iii = tuple<int, int, int>;
 #define X first
 #define Y second
 
-vector<int> solution(int n, int s) {
+long long solution(int n, vector<int> works) {
     
-    if (n > s) return {-1};
+    priority_queue<int, vector<int>, less<int>> pq;
+    for (auto x : works) pq.push(x);
     
-    vector<int> ans(n, s/n);
-    for (int i=0; i<s%n; i++)
-        ans[n-1-i] += 1;
+    for (int i=0; i<n; i++) {
+        if (pq.empty()) continue;
+        int cur = pq.top();
+        pq.pop();
+        if (--cur) pq.push(cur);
+    }
+    
+    long long ans = 0;
+    while (!pq.empty()) {
+        long long cur = pq.top();
+        pq.pop();
+        ans += cur*cur;
+    }
     return ans;
 }
