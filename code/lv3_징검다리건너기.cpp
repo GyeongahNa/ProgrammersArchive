@@ -21,10 +21,12 @@ using iii = tuple<int, int, int>;
 
 bool check(int mid, vector<int> stones, int k) {
     
+    //mid-1까지 징검다리를 건넜을 때 상태
     int sz = stones.size();
     for (int i=0; i<sz; i++)
         stones[i] = max(0, stones[i]-(mid-1));
     
+    //연속하는 0의 개수가 k개 초과 이면 false 리턴
     int idx = 0;
     while (idx < sz) {
         if (stones[idx]) idx++;
