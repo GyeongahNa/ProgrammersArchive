@@ -29,12 +29,12 @@ int solution(int n, vector<int> stations, int w) {
         int en = min(n, x+w);
         int sz = (int)v.size();
         if (!sz || st > v[sz-1].Y+1) v.push_back({st, en});
-        else v[sz-1].Y = max(v[sz-1].Y, en);
+        else v[sz-1].Y = max(v[sz-1].Y, en); //(st,en)가 가장 마지막 영역과 겹치면 끝 부분만 수정
     }
 
     int p = 1, cnt = 0;
     for (auto [st, en] : v) {
-        cnt += (st-p+2*w)/(2*w+1);
+        cnt += (st-p+2*w)/(2*w+1); //(st-p)를 (2*w+1)로 나눈 후 올림한 값
         p = en+1;
     }
 
