@@ -31,6 +31,7 @@ void traverse(int cur, vector<int> vchild, vector<vector<int>> nodeinfo) {
 
     vector<int> leftsub, rightsub;
 
+    //x좌표가 cur노드의 x좌표 보다 작으면 왼쪽서브트리, 크면 오른쪽서브트리
     for (int c : vchild) {
         int a = nodeinfo[c][0];
         int b = nodeinfo[c][1];
@@ -38,6 +39,7 @@ void traverse(int cur, vector<int> vchild, vector<vector<int>> nodeinfo) {
         else rightsub.push_back(c);
     }
 
+    //각 서브트리의 루트 노드를 구해 순회
     auto cmp = [&nodeinfo](int a, int b){return nodeinfo[a][1] > nodeinfo[b][1];};
     sort(leftsub.begin(), leftsub.end(), cmp);
     sort(rightsub.begin(), rightsub.end(), cmp);
@@ -62,6 +64,7 @@ vector<vector<int>> solution(vector<vector<int>> nodeinfo) {
     for (int i=0; i<(int)nodeinfo.size(); i++) 
         child.push_back(i);
 
+    //가장 y값이 큰 노드가 루트 노드
     auto cmp = [&nodeinfo](int a, int b){return nodeinfo[a][1] > nodeinfo[b][1];};
     sort(child.begin(), child.end(), cmp);
 
