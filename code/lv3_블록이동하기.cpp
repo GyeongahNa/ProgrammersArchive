@@ -75,6 +75,7 @@ int bfs(const vector<vector<int>>& board) {
         if (check(x, y, d)) return dist[x][y][d];
         q.pop();
         
+        //상하좌우 이동
         for (int i=0; i<4; i++) {
             int nx1 = x+dx[i];
             int ny1 = y+dy[i];
@@ -87,6 +88,7 @@ int bfs(const vector<vector<int>>& board) {
             dist[nx1][ny1][d] = dist[x][y][d]+1;
         }
         
+        //회전
         if (d == 0) {
             for (int i=0; i<4; i++) {
                 int chx = x+rdx0[i];
