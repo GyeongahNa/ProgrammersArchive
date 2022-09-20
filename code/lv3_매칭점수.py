@@ -17,7 +17,7 @@ def solution(word, pages):
         
         page = page.lower()
 
-        url = re.search('<meta property=\"og:url\" content=\"https://(\S+)\"/>', page).group(1)
+        url = re.search('<meta property=\"og:url\" content=\"https://([\S]+)\"/>', page).group(1)
         links = re.findall('<a href=\"https://([\S]+)\">', page)
         
         cnt = 0
